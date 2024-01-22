@@ -21,6 +21,7 @@ class Game:
 
     def start(self):
         self.board = self.init_board()
+        self.turn = 0
         return self.turn, self.board_state()
     
     def init_board(self):
